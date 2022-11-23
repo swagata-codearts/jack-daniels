@@ -34,6 +34,11 @@
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
+
+/* fdev-sb */
+.custom-banner .carousel-item img {
+  --vp-v: 0.85;}
+/* fdev-sb */
 }
 
 

@@ -1,6 +1,6 @@
 /******** Google Fonts ********/
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 /******** Color Schemes ********/
 
@@ -59,8 +59,9 @@ a:hover {
 p {
   margin: 0;
   padding: 0;
+  font-family: var(--ff-secondary);
   font-size: 14px;
-  color: var(--c-black-text);
+  color: var(--c-white-900);
   line-height: 18px;
   font-weight: 400;
 }
@@ -81,6 +82,9 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 1440px;
 }
+.container-alt {
+  max-width: 1642px;
+}
 /* .on-hover:hover > *:nth-child(2) {
   display: block;
 }
@@ -92,17 +96,13 @@ h1, h2, h3, h4, h5, h6 {
 .custom-pad {
   padding: 60px 0;
 }
-.custom-header {
-  /* change header bg here */
-  background-color: var(--c-white);
-}
 .custom-button  {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--c-primary);
+  background-color: transparent;
   color: var(--c-white-900);
-  border: 2px solid transparent;
+  border: 2px solid var(--c-primary);
   font-family: var(--ff-primary);
   font-size: 16px;
   font-weight: 600;
@@ -112,6 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0px 40px;
   height: 47px;
   position: relative;
+  z-index: 2;
 }
 /* If there is a button icon */
 .custom-button {
@@ -162,11 +163,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 45px;
   width: 45px;
   border-radius: 0;
-  z-index: 1;
+  z-index: 9999;
 }
 .navbar-toggler { 
   /*change the hamburger menu bg */
-  background-color: black;
+  background-color: transparent;
+  transform: rotate(90deg);
 }
 .navbar-toggler .icon-bar {
   display: block;
