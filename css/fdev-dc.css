@@ -1,5 +1,49 @@
-/* *************** <add section name> Section Start *************** */
-/* *************** <add section name> Section End *************** */
+/* *************** <footer> Section Start *************** */
+.footer-wrap {
+    padding: 90px 0 30px 0;
+  }
+.custom-footer .footer-col-title .title {
+    line-height: 52px;
+    font-weight: 500;
+    font-size: 27px;
+    color: var(--c-black-800);
+    text-transform: capitalize;
+    margin-bottom: 25px;
+  }
+.custom-footer .footer-col-content p {
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 400;
+    font-family: var(--ff-secondary);
+    color: var(--c-grey-900);
+    padding-right: 168px;
+  }
+.footer-social-icon li {
+    display: inline-flex;
+  }
+.footer-social-icon li a {
+    background-color: var(--c-black-800);
+    color: var(--c-white-900);
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+.footer-social-icon li a:hover {
+    color: var(--c-primary);
+  }
+.custom-footer .footer-social-icon {
+    margin-top: 30px;
+  }
+.custom-footer .footer-social-icon li:nth-child(2) {
+    padding: 0 12px;
+  }
+.custom-footer .footer-social-icon li:nth-child(3) {
+    padding-right: 12px;
+  }
+/* *************** <footer> Section End *************** */
 
 @media (min-width: 1600px) and (max-width: 1500px){
 
