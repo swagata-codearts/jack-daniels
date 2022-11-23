@@ -130,6 +130,27 @@
 }
 /* *************** Banner Section End *************** */
 
+/* *************** Products Section Start *************** */
+.product_feature {
+  width: fit-content;
+  margin-left: auto;
+}
+/* .slider-nav .slick-track {
+  display: flex;
+  width: 100% !important;
+}
+.slider-nav .slick-track .slick-slide {
+  width: 100% !important;
+} */
+.product_nav .title h3 {
+  font-size: 34px;
+  color: var(--c-white-900);
+  line-height: 68px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+/* *************** Products Section End *************** */
+
 @media (min-width: 1600px) and (max-width: 1500px){
 
 }
