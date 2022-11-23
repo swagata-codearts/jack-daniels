@@ -90,6 +90,16 @@
     margin-top: 15px;
   }
 /**************** <footer> Section End *************** */
+/* *************** <cta> Section Start *************** */
+.cta {
+    background-image: url(../images/cta-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 140px 0 230px 0;
+  }
+/* *************** <cta> Section End *************** */
 
 @media (min-width: 1600px) and (max-width: 1500px){
 
