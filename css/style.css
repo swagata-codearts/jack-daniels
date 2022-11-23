@@ -1,6 +1,6 @@
 /******** Google Fonts ********/
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 /******** Color Schemes ********/
 
@@ -8,17 +8,21 @@
 
   
   /* CSS HEX */
-  --c-primary: #ff9f1cff;
-  --c-secondary: #2ec4b6ff;
-  --c-accent: #08211fff;
-  --c-primary-alt: #ffbf69ff;
-  --c-secondary-alt: #cbf3f0ff;
+  --c-primary: #c8693a;
+  --c-secondary: #121011;
+  --c-primary-alt: #d48f6c;
   
-  --c-white-900: #ffffffff;
-  --c-white-800: #f7fffe;
-  --c-black-900: #090b0bff;
+  --c-white-900: #ffffff;
+
+  --c-black-900: #000000;
+  --c-black-800: #252525;
   
-  --ff-primary: 'Montserrat', sans-serif;
+  --c-grey-900: #595959;
+  --c-grey-800: #b2b2b2;
+  --c-grey-700: #d9d9d9;
+  
+  --ff-primary: 'Inconsolata', monospace;
+  --ff-secondary: 'Red Hat Display', sans-serif;
 }
 
 
@@ -96,46 +100,50 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   background-color: var(--c-primary);
   color: var(--c-white-900);
   border: 2px solid transparent;
-
   font-family: var(--ff-primary);
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.64px;
   text-transform: uppercase;
-
-  /* width: 171px; */ 
-        /* or */
-  padding: 0px 32px;
-  height: 56px;
-
-  border-radius: 50px;
-
+  transition: all 0.3s ease-in-out;
+  padding: 0px 40px;
+  height: 47px;
   position: relative;
 }
 /* If there is a button icon */
 .custom-button {
   gap: 0 10px;
 }
-.custom-button span {
-  margin: 0;
+.custom-button::after {
+  content: '';
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--c-primary);
+  z-index: -1;
+}
+.custom-button:hover::after {
+  width: 0%;
 }
 /* Basic Button Hover */
-.custom-button:hover {
-  background-color: transparent;
-  color: var(--c-primary);
-  border-color: var(--c-primary);
-}
-
 .custom-button_form {
   background-color: transparent;
   padding: 0;
-  font: inherit; /* add custom-button fonts */
-  color: inherit; /* add custom-button color */
-  text-transform: inherit; /* add custom-button text-transform */
+  font: 16px var(--ff-primary) 600; /* add custom-button fonts */
+  color: var(--c-white-900); /* add custom-button color */
+  text-transform: uppercase; /* add custom-button text-transform */
   border: none;
+  transition: all 0.3s ease-in-out;
+}
+.custom-button:hover, .custom-button:hover .custom-button_form {
+  background-color: transparent;
+  color: var(--c-primary);
+  border-color: var(--c-primary);
 }
 
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* HOMEPAGE START *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
