@@ -131,9 +131,17 @@
 /* *************** Banner Section End *************** */
 
 /* *************** Products Section Start *************** */
+.custom-products {
+  position: relative;
+}
 .product_feature {
-  width: fit-content;
+  /* width: fit-content; */
   margin-left: auto;
+  position: relative;
+}
+.slider.slider-nav {
+  position: absolute;
+  bottom: 0;
 }
 /* .slider-nav .slick-track {
   display: flex;
