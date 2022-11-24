@@ -119,6 +119,48 @@
     color: var(--c-white-900);
   }
 /* *************** <cta> Section End *************** */
+/* *************** <recipes> Section Start *************** */
+.recipes {
+  padding: 110px 0 125px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.recipes .custom-paragraph {
+  font-size: 25px;
+  line-height: 49px;
+  font-family: var(--ff-secondary);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--c-grey-800);
+  padding-right: 13px;
+}
+.recipes form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.recipes .form-title {
+  margin-bottom: 0;
+  color: var(--c-white-900);
+  font-size: 25px;
+  line-height: 49px;
+  font-weight: 500;
+  font-family: var(--ff-secondary);
+  padding-right: 21px;
+}
+.recipes .form-select {
+  width: 60%;
+  background-color: transparent;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 4px solid var(--c-primary);
+  border-bottom-style: dotted;
+}
+/* *************** <recipes> Section End *************** */
 
 @media (min-width: 1600px) and (max-width: 1500px){
 
