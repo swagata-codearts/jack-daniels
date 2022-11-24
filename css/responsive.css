@@ -10,6 +10,7 @@
 /* custom props */
 .container-alt {padding: 0 1.5rem;}
 .custom-button {padding: 0px 36px;height: 43px;}
+.custom-heading .main-heading {font-size: 46px;line-height: 64px;}
 /* custom props */
 /* fdev-sb */
 .custom-header {padding: 22px 0;}
@@ -19,6 +20,12 @@
 
 .custom-banner_content h2 {font-size: 66px;line-height: 65px;margin-bottom: 31px;}
 .custom-banner_content p {margin-bottom: 41px;}
+
+.custom-products .product {height: 600px;}
+.product_content {top: 100px;}
+.product .title h3 {padding-bottom: 12px;}
+.desc p {margin-bottom: 28px;}
+.slider.slider-nav {bottom: 70px;}
 /* fdev-sb */
 }
 
@@ -35,6 +42,12 @@
 
 .custom-banner_content h2 {font-size: 62px;line-height: 60px;margin-bottom: 28px;}
 .custom-banner_content p {margin-bottom: 38px;}
+
+.custom-products .product {height: 550px;}
+.product_content {top: 90px;}
+.product .title h3 {padding-bottom: 10px;}
+.desc p {margin-bottom: 26px;}
+.slider.slider-nav {bottom: 66px;}
 /* fdev-sb */
 }
 @media (min-width: 1200px) and (max-width: 1300px) {

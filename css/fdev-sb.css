@@ -213,9 +213,7 @@ width: 1440px;
   height: unset !important;
 }
 .custom-products .product {
-  --vw-var: 0.445;
-  height: calc( 100vw * 0.445);
-  min-height: 400px;
+  height: 855px;
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
