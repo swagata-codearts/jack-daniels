@@ -135,12 +135,14 @@
   font-weight: 400;
   color: var(--c-grey-800);
   padding-right: 13px;
+  margin-top: 30px;
 }
-.recipes form {
+.recipes .frm-top {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 60%;
+  margin-bottom: 45px;
 }
 .recipes .form-title {
   margin-bottom: 0;
@@ -149,16 +151,30 @@
   line-height: 49px;
   font-weight: 500;
   font-family: var(--ff-secondary);
-  padding-right: 21px;
+  padding-right: 15px;
 }
 .recipes .form-select {
-  width: 60%;
+  width: 54%;
   background-color: transparent;
   border-left: none;
   border-right: none;
   border-top: none;
   border-bottom: 4px solid var(--c-primary);
   border-bottom-style: dotted;
+  color: var(--c-primary);
+  font-size: 30px;
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  background-image: url(../images/down-filled-triangular-arrow.png);
+}
+.recipes .frm-dwn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+}
+.recipes .frm-wrap {
+  padding: 50px 0 60px 0;
 }
 /* *************** <recipes> Section End *************** */
 
