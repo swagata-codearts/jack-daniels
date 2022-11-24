@@ -25,6 +25,8 @@ jQuery('.slider-single').slick({
   infinite: false,
   useTransform: true,
   speed: 400,
+  autoplay: true,
+  autoplaySpeed: 2000,
   cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
 });
 
@@ -74,8 +76,10 @@ jQuery('.slider-nav').on('click', '.slick-slide', function(event) {
 });
 
 jQuery(document).ready(function(){
-  jQuery(".custom-navbar-toggler").click(function()    {
+  jQuery(".custom-navbar-toggler").click(function(e)    {
       jQuery(this).toggleClass("close")
+      e.stopPropagation()
   })
+  
 });
 

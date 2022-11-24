@@ -6,46 +6,140 @@
 	
 }
 
-@media (min-width: 1500px) and (max-width: 1400px){
-	
+@media (min-width: 1400px) and (max-width: 1500px) {
+/* custom props */
+.container-alt {padding: 0 1.5rem;}
+.custom-button {padding: 0px 36px;height: 43px;}
+/* custom props */
+/* fdev-sb */
+.custom-header {padding: 22px 0;}
+.header_navbar-brand img {height: 52px;}
+.header_navbar-collapse .custom-offcanvas {top: 106px;}
+.header_navbar-expand .navbar-nav {gap: 0 65px;}
+
+.custom-banner_content h2 {font-size: 66px;line-height: 65px;margin-bottom: 31px;}
+.custom-banner_content p {margin-bottom: 41px;}
+/* fdev-sb */
 }
 
-@media (min-width: 1400px) and (max-width: 1300px){
-	
+@media (min-width: 1300px) and (max-width: 1400px) {
+/* custom props */
+.container-alt {padding: 0 1.5rem;}
+.custom-button {padding: 0px 34px;height: 40px;}
+/* custom props */
+/* fdev-sb */
+.custom-header {padding: 20px 0;}
+.header_navbar-brand img {height: 50px;}
+.header_navbar-collapse .custom-offcanvas {top: 101px;}
+.header_navbar-expand .navbar-nav {gap: 0 55px;}
+
+.custom-banner_content h2 {font-size: 62px;line-height: 60px;margin-bottom: 28px;}
+.custom-banner_content p {margin-bottom: 38px;}
+/* fdev-sb */
 }
-@media (min-width: 1300px) and (max-width: 1200px){
-	
+@media (min-width: 1200px) and (max-width: 1300px) {
+/* custom props */
+.container-alt {padding: 0 1.5rem;}
+.custom-button {padding: 0px 32px;height: 38px;font-size: 15px;}
+/* custom props */
+/* fdev-sb */
+.custom-header {padding: 18px 0;}
+.custom-header .nav-link {font-size: 15px;}
+.header_navbar-brand img {height: 48px;}
+.header_navbar-collapse .custom-offcanvas {top: 97px;}
+.header_navbar-expand .navbar-nav {gap: 0 45px;}
+
+.custom-banner_content h2 {font-size: 58px;line-height: 55px;margin-bottom: 24px;}
+.custom-banner_content p {margin-bottom: 34px;font-size: 19px;line-height: 36px;width: 54%;}
+/* fdev-sb */
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+/* custom props */
+.container-alt {padding: 0 1.5rem;}
+.custom-button {padding: 0px 32px;height: 38px;font-size: 15px;}
+/* custom props */	
+/* fdev-sb */
+.custom-header {padding: 16px 0;}
+.custom-header .nav-link {font-size: 15px;}
+.header_navbar-brand img {height: 46px;}
+.header_navbar-collapse .custom-offcanvas {top: 93px;}
+.header_navbar-expand .navbar-nav {gap: 0 25px;}
+
+.custom-banner_content h2 {font-size: 54px;line-height: 50px;margin-bottom: 16px;}
+.custom-banner_content p {margin-bottom: 26px;font-size: 18px;line-height: 32px;width: 54%;}
+/* fdev-sb */
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+/* custom props */
+.container-alt {padding: 0 1.5rem;}
+.custom-button {padding: 0px 30px;height: 36px;font-size: 15px;}
+/* custom props */	
+/* fdev-sb */
+.custom-header {padding: 14px 0;}
+.custom-header .nav-link {font-size: 14px;}
+.header_navbar-brand img {height: 44px;}
+.header_navbar-collapse .custom-offcanvas {top: 89px;}
+.header_navbar-expand .navbar-nav {gap: 0 20px;}
+
+.custom-banner_content h2 {font-size: 50px;line-height: 46px;margin-bottom: 15px;}
+.custom-banner_content p {margin-bottom: 25px;font-size: 18px;line-height: 32px;width: 54%;}
+/* fdev-sb */
 }
 
 @media only screen and (max-width: 991.98px) {    
-.navbar-toggler .icon-bar { width: 24px;transition: .5s ease;}
-.navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
-.navbar-toggler.collapsed .icon-bar:nth-child(3){opacity:1}
-.navbar-toggler.collapsed .icon-bar:nth-child(4){transform:rotate(0) translateY(0) translateX(0);}
-.navbar-toggler .icon-bar:nth-child(2){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
-.navbar-toggler .icon-bar:nth-child(3){opacity: 0}
-.navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
-.navbar-header {display: block;}
-
+/* custom props */
+.container-alt {padding: 0 1.5rem;}
+.custom-button {padding: 0px 29px;height: 34px;font-size: 15px;}
+/* custom props */	
 /* fdev-sb */
-.custom-banner .carousel-item img {
-  --vp-v: 0.85;}
+.navbar-toggler {height: 25px;width: 25px;padding: 0;}
+.custom-header {padding: 14px 0;}
+.header_navbar-brand {z-index: 9999;}
+.header_navbar-brand img {height: 44px;}
+.header_navbar-collapse .custom-offcanvas {top: 0;width: 100%;text-align: center;}
+.header_navbar-collapse .custom-offcanvas .offcanvas-body {padding:  0 0;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.header_navbar-collapse .nav-item {width: fit-content;}
+.header_navbar-collapse .nav-item .nav-link {font-size: 18px;}
+
+.custom-banner .carousel-item img {--vp-v: 0.48;}
+.custom-banner_content h2 {font-size: 40px;line-height: 36px;margin-bottom: 15px;}
+.custom-banner_content p {margin-bottom: 25px;font-size: 16px;line-height: 24px;width: 54%;}
+.custom-banner::after {content: '';position: absolute;width: 100%;height: 100%;background-color: rgba(0, 0 ,0, 0.5);z-index: 0;top: 0;left: 0;z-index: 0;}
+.custom-banner {position: relative;}
+.custom-banner_content {z-index: 9;}
 /* fdev-sb */
 }
 
 
 @media (max-width: 767.98px){
-    
+/* custom props */
+.custom-button {padding: 0px 24px;height: 32px;font-size: 14px;}
+/* custom props */
+/* fdev-sb */
+.custom-header {padding: 12px 0;}
+.header_navbar-brand img {height: 40px;}
+.header_navbar-collapse .nav-item .nav-link {font-size: 17px;}
+
+.custom-banner_content h2 {font-size: 36px;line-height: 32px;margin-bottom: 12px;width: unset;}
+.custom-banner_content p {width: 78%;margin: 0 auto 15px;}
+.custom-banner_content {left: 0;right: 0;text-align: center;}
+.custom-banner .carousel-item img {min-height: 310px;}
+/* fdev-sb */
 }
 
 @media (max-width: 575.98px){
-    
+/* custom props */
+.custom-button {padding: 0px 22px;}
+/* custom props */
+/* fdev-sb */
+.header_navbar-brand img {height: 35px;}
+.header_navbar-collapse .nav-item .nav-link {font-size: 16px;}
+
+.custom-banner_content h2 {font-size: 32px;}
+.custom-banner_content p {width: 95%;margin: 0 auto 15px;font-size: 15px;line-height: 22px;}
+.custom-banner_content {left: 0;right: 0;text-align: center;}
+.custom-banner .carousel-item img {--vp-v: 0.58;min-height: 320px;}
+/* fdev-sb */
 }
