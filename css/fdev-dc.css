@@ -177,6 +177,53 @@
   padding: 50px 0 60px 0;
 }
 /* *************** <recipes> Section End *************** */
+/* *************** <committee> Section Start *************** */
+.committee {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--c-secondary);
+  padding: 135px 0 170px 0;
+}
+.committee .committee-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.committee .committee-img img {
+  width: 100%;
+}
+.committee .custom-heading .main-heading{
+  padding-right: 12px;
+  margin-bottom: 60px;
+}
+.committee .committee-right-wrap.d-flex {
+  gap: 35px;
+}
+.committee .history-title {
+  font-size: 18px;
+  color: var(--c-primary);
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.committee .committee-right-wrap p {
+  font-size: 15px;
+  line-height: 31px;
+  font-family: var(--ff-secondary);
+  font-weight: 400;
+  color: var(--c-grey-800);
+}
+.committee .committee-right-history .history-content p:last-child {
+  padding: 35px 0 45px 0;
+}
+.committee .about-logo {
+  margin-top: 50px;
+}
+.committee .history-content p {
+  padding-right: 10px;
+}
+/* *************** <committee> Section End *************** */
 
 @media (min-width: 1600px) and (max-width: 1500px){
 
