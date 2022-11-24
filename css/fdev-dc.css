@@ -116,6 +116,7 @@
     font-style: italic;
     font-weight: 400;
     padding: 30px 181px 45px;
+    color: var(--c-white-900);
   }
 /* *************** <cta> Section End *************** */
 
