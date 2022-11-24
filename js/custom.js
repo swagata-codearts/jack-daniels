@@ -37,7 +37,7 @@ jQuery('.slider-nav')
     slidesToScroll: 4,
     dots: false,
     focusOnSelect: false,
-    infinite: false,
+    infinite: true,
     responsive: [{
       breakpoint: 1024,
       settings: {
