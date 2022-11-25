@@ -101,7 +101,7 @@
   }
 .cta::after {
     content: '';
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.4);
     position: absolute;
     left: 0;
     top: 0;
@@ -126,6 +126,12 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  
+  background-color: #1f1917;
+}
+.recipes::after {
+  content: '';
+  
 }
 .recipes .custom-paragraph {
   font-size: 25px;
@@ -193,7 +199,7 @@
   width: 100%;
 }
 .committee .custom-heading .main-heading{
-  padding-right: 12px;
+  padding-right: 146px;
   margin-bottom: 60px;
 }
 .committee .committee-right-wrap.d-flex {
@@ -215,13 +221,16 @@
   color: var(--c-grey-800);
 }
 .committee .committee-right-history .history-content p:last-child {
-  padding: 35px 0 45px 0;
+  padding: 37px 0 48px 0;
 }
 .committee .about-logo {
   margin-top: 50px;
 }
 .committee .history-content p {
   padding-right: 10px;
+}
+.committee .committee-content-wrap {
+  padding-left: 70px;
 }
 /* *************** <committee> Section End *************** */
 
