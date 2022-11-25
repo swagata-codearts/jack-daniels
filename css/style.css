@@ -5,8 +5,6 @@
 /******** Color Schemes ********/
 
 :root {
-
-  
   /* CSS HEX */
   --c-primary: #c8693a;
   --c-secondary: #121011;
@@ -22,10 +20,41 @@
   --c-grey-800: #b2b2b2;
   --c-grey-700: #d9d9d9;
   
-  --ff-primary: 'Inconsolata', monospace;
+  --ff-primary: 'InconsolataCondensed', monospace;
   --ff-secondary: 'Red Hat Display', sans-serif;
 }
 
+/* font face rule */
+
+@font-face {
+  font-family: 'InconsolataCondensed';
+  src: url('../fonts/InconsolataCondensed-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'InconsolataCondensed';
+  src: url('../fonts/InconsolataCondensed-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'InconsolataCondensed';
+  src: url('../fonts/InconsolataCondensed-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inconsolata CondensedSemiBold';
+  src: url('../fonts/InconsolataCondensed-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'InconsolataCondensed';
+  src: url('../fonts/InconsolataCondensed-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
 
 /******** CSS Resets ********/
 * {
@@ -450,7 +479,7 @@ width: 1440px;
   background-attachment: fixed;
 }
 .custom-about .custom-heading {
-  width: 95%;
+  width: 79%;
 }
 .text-highlight p {
   font-size: 25px;

@@ -3,7 +3,9 @@
 
 
 @media (min-width: 1600px) and (max-width: 1500px){
-	
+/* custom props */
+.container-alt, .container {padding: 0 1.5rem;}	
+/* custom props */
 }
 
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -28,7 +30,7 @@
 .desc p {margin-bottom: 28px;}
 .slider.slider-nav {bottom: 70px;width: 100vw;}
 
-.custom-about .custom-heading {width: 89%;}
+.custom-about .custom-heading {width: 74%;}
 .text-highlight p {font-size: 23px;line-height: 40px;margin-top: 20px;}
 .text p {line-height: 32px;margin-top: 18px;}
 .custom-about .button-wrap {margin-top: 30px;}
@@ -58,7 +60,7 @@
 .slider.slider-nav {bottom: 66px;width: 100vw;}
 .product_nav .title h3 {font-size: 32px;line-height: 40px;}
 
-.custom-about .custom-heading {width: 82%;}
+.custom-about .custom-heading {width: 66%;}
 .about_content {padding-right: 50px;}
 .text-highlight p {font-size: 22px;line-height: 38px;margin-top: 18px;}
 .text p {line-height: 30px;margin-top: 16px;}
@@ -90,7 +92,7 @@
 .slider-nav .slick-track {gap: 0 50px}
 .product_nav .title h3 {font-size: 30px;line-height: 38px;}
 
-.custom-about .custom-heading {width: 82%;}
+.custom-about .custom-heading {width: 64%;}
 .about_content {padding-right: 40px;}
 .text-highlight p {font-size: 20px;line-height: 36px;margin-top: 16px;}
 .text p {line-height: 28px;margin-top: 16px;}
@@ -123,7 +125,7 @@
 .slider-nav .slick-track {gap: 0 40px}
 .product_nav .title h3 {line-height: 30px;font-size: 26px;}
 
-.custom-about .custom-heading {width: 82%;}
+.custom-about .custom-heading {width: 66%;}
 .about_content {padding-right: 30px;}
 .text-highlight p {font-size: 19px;line-height: 34px;margin-top: 15px;}
 .text p {font-size: 17px;line-height: 28px;margin-top: 15px;}
@@ -156,7 +158,7 @@
 .slider-nav .slick-track {gap: 0 30px}
 .product_nav .title h3 {line-height: 30px;font-size: 24px;}
 
-.custom-about .custom-heading {width: 82%;}
+.custom-about .custom-heading {width: 68%;}
 .about_content {padding-right: 15px;}
 .text-highlight p {font-size: 18px;line-height: 34px;margin-top: 15px;}
 .text p {font-size: 16px;line-height: 28px;margin-top: 15px;}
@@ -197,11 +199,6 @@
 .slider.slider-nav {bottom: 40px;width: 100vw;}
 .slider-nav .slick-track {gap: 0 30px}
 .product_nav .title h3 {line-height: 30px;font-size: 24px;}
-.slider-nav .slick-next {
-  right: 0;
-  bottom: 0px;
-  top: unset;
-}
 
 .about_image img {width: 100%;height: 500px;object-fit: cover;}
 .custom-about .custom-heading {width: 82%;}
