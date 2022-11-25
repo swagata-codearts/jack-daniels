@@ -236,20 +236,16 @@
 .committee .committee-content-wrap {
   padding-left: 70px;
 }
+.committee .committee-content-wrap .about-logo.d-flex li:last-child {
+  padding-left: 40px;
+}
 /* *************** <committee> Section End *************** */
+/******************Responsive-Start*******************/
 
-@media (min-width: 1600px) and (max-width: 1500px){
-
-}
-
-@media (min-width: 1500px) and (max-width: 1400px){
+@media (min-width: 1366px) and (max-width: 1600px){
 	
 }
-
-@media (min-width: 1400px) and (max-width: 1300px){
-	
-}
-@media (min-width: 1300px) and (max-width: 1200px){
+@media (min-width: 1200px) and (max-width: 1366px){
 	
 }
 
@@ -270,5 +266,9 @@
 }
 
 @media (max-width: 575.98px){
+    
+}
+
+@media (max-width: 480.98px){
     
 }
