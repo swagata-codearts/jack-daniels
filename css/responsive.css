@@ -2,10 +2,24 @@
 /* CSS Document */
 
 
-@media (min-width: 1600px) and (max-width: 1500px){
+@media (min-width: 1600px) and (max-width: 1700px){
 /* custom props */
 .container-alt, .container {padding: 0 1.5rem;}	
 /* custom props */
+/* fdev-dc */
+.committee-right-history {width: 32%;}
+/* fdev-dc */
+}
+@media (min-width: 1500px) and (max-width: 1600px){
+/* custom props */
+.container-alt, .container {padding: 0 1.5rem;}	
+/* custom props */
+/* fdev-dc */
+.committee-right-history {width: 32%;}
+.committee .committee-content-wrap {padding: 120px 0 130px 40px;}
+
+.cta {padding: 110px 0 315px 0;}
+/* fdev-dc */
 }
 
 @media (min-width: 1400px) and (max-width: 1500px) {
@@ -35,8 +49,24 @@
 .text p {line-height: 32px;margin-top: 18px;}
 .custom-about .button-wrap {margin-top: 30px;}
 /* fdev-sb */
+/* fdev-dc */
+.committee-right-history {width: 32%;}
+.committee .committee-content-wrap {padding: 110px 0 120px 30px;}
+.committee .committee-right-wrap {gap: 0 34px;}
+.committee .history-button {margin-top: 12px;}
+
+.cta {padding: 100px 0 300px 0;}
+
+.recipes .form-title {font-size: 24px;}
+.recipes {padding: 100px 0 100px 0;}
+
+.custom-footer .footer-col-content p {padding-right: 135px;}
+/* fdev-dc */
 }
 
+@media (min-width: 1359.98px) and (max-width: 1400px) {
+.committee-right-history {gap: 41px 0 !important;}
+}
 @media (min-width: 1300px) and (max-width: 1400px) {
 /* custom props */
 .container-alt, .container {padding: 0 1.5rem;}
@@ -66,6 +96,24 @@
 .text p {line-height: 30px;margin-top: 16px;}
 .custom-about .button-wrap {margin-top: 28px;}
 /* fdev-sb */
+/* fdev-dc */
+.committee-right-history {width: 32%;}
+.committee .committee-content-wrap {padding: 100px 0 110px 20px;}
+.committee .committee-right-wrap {gap: 0 26px;}
+.committee .history-button {margin-top: 12px;}
+.committee-right-history {gap: 11px 0;}
+
+.cta {padding: 90px 0 250px 0;}
+.cta .custom-paragraph {padding: 20px 181px 30px;}
+
+.recipes .form-title {font-size: 22px;}
+.recipes {padding: 90px 0 90px 0;}
+.recipes .frm-top {margin-bottom: 35px;}
+.recipes .frm-wrap {padding: 40px 0 50px 0;}
+.recipes .custom-paragraph {font-size: 22px;line-height: 42px;}
+
+.custom-footer .footer-col-content p {padding-right: 125px;}
+/* fdev-dc */
 }
 @media (min-width: 1200px) and (max-width: 1300px) {
 /* custom props */
@@ -98,6 +146,26 @@
 .text p {line-height: 28px;margin-top: 16px;}
 .custom-about .button-wrap {margin-top: 26px;}
 /* fdev-sb */
+/* fdev-dc */
+.committee-right-history {width: 32%;}
+.committee .committee-content-wrap {padding: 90px 0 100px 15px;}
+.committee .committee-right-wrap {gap: 0 26px;}
+.committee .history-button {margin-top: 12px;}
+.committee-right-history {gap: 11px 0;}
+.committee .history-content p:not(:last-child) {padding-bottom: 10px;}
+
+.cta {padding: 80px 0 230px 0;}
+.cta .custom-paragraph {padding: 20px 181px 20px;font-size: 22px;line-height: 36px;}
+
+.recipes .form-title {font-size: 20px;}
+.recipes {padding: 80px 0 80px 0;}
+.recipes .frm-top {margin-bottom: 30px;}
+.recipes .frm-wrap {padding: 30px 0 40px 0;}
+.recipes .custom-paragraph {font-size: 21px;line-height: 36px;}
+.recipes .form-select {font-size: 20px;}
+
+.custom-footer .footer-col-content p {padding-right: 75px;}
+/* fdev-dc */
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -131,6 +199,33 @@
 .text p {font-size: 17px;line-height: 28px;margin-top: 15px;}
 .custom-about .button-wrap {margin-top: 25px;}
 /* fdev-sb */
+/* fdev-dc */
+.committee-right-history {width: 32%;}
+.committee .committee-content-wrap {padding: 70px 0 70px 15px;}
+.committee .committee-right-wrap {gap: 20px 26px;flex-wrap: wrap;}
+.committee .history-button {margin-top: 12px;}
+.committee-right-history {gap: 11px 0;}
+.committee .history-content p:not(:last-child) {padding-bottom: 10px;}
+.committee-right-history:nth-child(2) {width: 60%;}
+.committee-right-history:nth-child(3) {width: 100%;}
+.committee-right-img img {height: 318px;}
+.committee .custom-heading {padding-bottom: 30px;width: 66%;}
+.committee-img img {height: 820px;}
+
+.cta {padding: 70px 0 180px 0;}
+.cta .custom-paragraph {padding: 20px 100px 20px;font-size: 22px;line-height: 36px;}
+
+.recipes .form-title {font-size: 17px;}
+.recipes {padding: 70px 0 70px 0;}
+.recipes .frm-top {margin-bottom: 20px;}
+.recipes .frm-wrap {padding: 20px 0 30px 0;}
+.recipes .custom-paragraph {font-size: 20px;line-height: 36px;}
+.recipes .form-select {font-size: 18px;}
+
+.footer-wrap {padding: 55px 0 10px 0;}
+.custom-footer .footer-col-content p {padding-right: 5px;}
+.custom-footer .footer-break-list a {line-height: 36px;}
+/* fdev-dc */
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -164,6 +259,36 @@
 .text p {font-size: 16px;line-height: 28px;margin-top: 15px;}
 .custom-about .button-wrap {margin-top: 25px;}
 /* fdev-sb */
+/* fdev-dc */
+.committee-right-history {width: 32%;}
+.committee .committee-content-wrap {padding: 60px 0 60px 15px;}
+.committee .committee-right-wrap {gap: 20px 26px;flex-wrap: wrap;}
+.committee .history-button {margin-top: 12px;}
+.committee-right-history {gap: 11px 0;}
+.committee .history-content p:not(:last-child) {padding-bottom: 10px;}
+.committee-right-history:nth-child(2) {width: 62%;}
+.committee-right-history:nth-child(3) {width: 100%;}
+.committee-right-img img {height: 318px;}
+.committee .custom-heading {padding-bottom: 30px;width: 66%;}
+.committee-img img {height: 800px;}
+
+.cta {padding: 60px 0 160px 0;}
+.cta .custom-paragraph {padding: 20px 100px 20px;font-size: 22px;line-height: 36px;}
+
+.recipes .form-title {font-size: 17px;}
+.recipes {padding: 70px 0 70px 0;}
+.recipes .frm-top {margin-bottom: 20px;}
+.recipes .frm-wrap {padding: 20px 0 30px 0;}
+.recipes .custom-paragraph {font-size: 20px;line-height: 36px;}
+.recipes .form-select {font-size: 18px;}
+
+.footer-wrap {padding: 55px 0 10px 0;}
+.custom-footer .footer-col-content p {padding-right: 5px;font-size: 15px;line-height: 28px;}
+.custom-footer .footer-break-list a {line-height: 32px;font-size: 15px;}
+.custom-footer .footer-contact-list a {font-size: 15px;line-height: 28px;}
+.custom-footer .footer-col-title .title {line-height: 30px;margin-bottom: 15px;}
+.footer-lower-img img {height: 100px;}
+/* fdev-dc */
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -207,6 +332,43 @@
 .text p {font-size: 16px;line-height: 28px;margin-top: 12px;}
 .custom-about .button-wrap {margin-top: 22px;}
 /* fdev-sb */
+/* fdev-dc */
+.committee-right-history {width: 32%;}
+.committee .committee-content-wrap {padding: 30px 0 50px 0;}
+.committee .committee-right-wrap {gap: 20px 26px;flex-wrap: wrap;align-items: center;}
+.committee .history-button {margin-top: 12px;}
+.committee-right-history {gap: 11px 0;}
+.committee .history-content p:not(:last-child) {padding-bottom: 10px;}
+.committee-right-history:nth-child(2) {width: 69%;}
+.committee-right-history:nth-child(3) {width: 100%;}
+.committee-right-img img {height: 318px;}
+.committee .custom-heading {padding-bottom: 30px;width: 100%;margin: 0 auto;}
+.committee-img img {height: 600px;object-fit: cover;}
+.committee [class*="col-"]:first-child {padding: 0;}
+
+.cta {padding: 50px 0 130px 0;}
+.cta .custom-paragraph {padding: 15px 40px 20px;font-size: 20px;line-height: 32px;}
+
+.recipes .form-title {font-size: 17px;}
+.recipes {padding: 60px 0 60px 0;}
+.recipes .frm-top {margin-bottom: 20px;}
+.recipes .frm-wrap {padding: 20px 0 30px 0;}
+.recipes .custom-paragraph {font-size: 20px;line-height: 36px;}
+.recipes .form-select {font-size: 18px;}
+
+.footer-wrap {padding: 55px 0 10px 0;}
+.custom-footer .footer-col-content p {padding-right: 5px;font-size: 15px;line-height: 28px;}
+.custom-footer .footer-break-list a {line-height: 32px;font-size: 15px;}
+.custom-footer .footer-contact-list a {font-size: 15px;line-height: 28px;}
+.custom-footer .footer-col-title .title {line-height: 30px;margin-bottom: 15px;}
+.footer-lower-img img {height: 100px;}
+.footer-wrap [class*="col-"] [class*="footer-"]  {text-align: center;margin-bottom: 15px;}
+.custom-footer .footer-social-icon {margin-top: 15px;}
+.custom-footer .footer-break-list {column-count: unset;}
+.footer-contact-list {display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.custom-footer .footer-contact-list li {width: fit-content;}
+.footer-lower-img, .footer-col-title {margin-bottom: 0 !important;}
+/* fdev-dc */
 }
 
 
@@ -236,13 +398,27 @@
 .about_content {text-align: center;}
 .about_image img {height: 450px;}
 .custom-about .custom-heading {width: 79%;margin: 0 auto;}
+.text-highlight p {font-size: 17px;line-height: 27px;margin-top: 8px;}
 /* fdev-sb */
+/* fdev-dc */
+.committee-right-history:nth-child(2) {width: 59%;}
+.committee .committee-right-wrap p {line-height: 27px;}
+.committee-img img {height: 400px;}
+
+.cta {padding: 50px 0 90px 0;}
+.cta .custom-paragraph {padding: 8px 17px 15px;font-size: 18px;line-height: 28px;}
+
+.recipes .form-title {font-size: 16px;}
+.recipes .frm-top {margin-bottom: 10px;} 
+.recipes .custom-paragraph {font-size: 18px;line-height: 30px;margin-top: 15px;}
+/* fdev-dc */
+
 }
 
 @media (max-width: 575.98px){
 /* custom props */
 .custom-button {padding: 0px 22px;}
-.custom-heading .main-heading {font-size: 28px;line-height: 36px;}
+.custom-heading .main-heading {font-size: 24px;line-height: 32px;}
 /* custom props */
 /* fdev-sb */
 .header_navbar-brand img {height: 35px;}
@@ -262,4 +438,23 @@
 .custom-about .custom-heading {width: 100%;}
 .about_image img {height: auto;}
 /* fdev-sb */
+/* fdev-dc */
+.committee-right-img {width: 100%;}
+.committee-right-img img {width: 100%;object-fit: cover;}
+.committee-right-history {width: 100% !important;text-align: center;}
+.committee .about-logo {gap: 0px 25px;justify-content: center;}
+.committee .custom-heading {padding-bottom: 15px;text-align: center;}
+.committee-img img {height: 350px;}
+.committee .history-button {margin-top: 4px;}
+
+.cta {padding: 30px 0 70px 0;}
+.cta .custom-paragraph {padding: 8px 0px 15px;font-size: 16px;line-height: 24px;}
+
+.recipes {padding: 40px 0 40px 0;}
+.recipes .form-title {line-height: 24px;font-size: 15px;}
+.recipes .custom-paragraph {font-size: 16px;line-height: 24px;margin-top: 6px;}
+
+.footer-lower-img img {height: 60px;}
+.custom-footer .footer-col-title .title {font-size: 24px;line-height: 25px;margin-bottom: 5px;}
+/* fdev-dc */
 }

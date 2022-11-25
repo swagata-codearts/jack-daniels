@@ -127,15 +127,22 @@
   background-position: center bottom;
   position: relative;
 }
+.recipes-content-wrap {
+  position: relative;
+  z-index: 999;
+}
 .recipes::after {
   content: '';
-  background-color: rgb(31, 25, 23);
+  background-image: url('../images/recipe-banner.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
-  z-index: -1;
+  z-index: 0;
 }
 .recipes .custom-paragraph {
   font-size: 25px;
@@ -149,9 +156,8 @@
 }
 .recipes .frm-top {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  width: 60%;
   margin-bottom: 45px;
 }
 .recipes .form-title {
@@ -179,9 +185,8 @@
 }
 .recipes .frm-dwn {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  width: 99%;
 }
 .recipes .frm-wrap {
   padding: 50px 0 60px 0;
@@ -190,24 +195,22 @@
 /* *************** <committee> Section Start *************** */
 .committee {
   position: relative;
-  overflow: hidden;
   background-color: var(--c-secondary);
-  padding: 135px 0 170px 0;
+  overflow-y: hidden;
 }
-.committee .committee-img {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.committee .committee-img img {
+.committee-img img {
   width: 100%;
+  object-fit: cover;
+  height: 932px;
 }
-.committee .custom-heading .main-heading{
-  padding-right: 146px;
-  margin-bottom: 60px;
+
+.committee .custom-heading{
+  width: 62%;
+  padding-bottom: 64px;
 }
-.committee .committee-right-wrap.d-flex {
-  gap: 35px;
+.committee .committee-right-wrap{
+  gap: 0 39px;
+  align-items: flex-start;
 }
 .committee .history-title {
   font-size: 18px;
@@ -215,7 +218,10 @@
   font-family: var(--ff-primary);
   font-weight: 400;
   text-transform: capitalize;
-  margin-bottom: 30px;
+  /* margin-bottom: 25px; */
+}
+.committee-right-img img {
+  height: 432px;
 }
 .committee .committee-right-wrap p {
   font-size: 15px;
@@ -224,25 +230,35 @@
   font-weight: 400;
   color: var(--c-grey-800);
 }
-.committee .committee-right-history .history-content p:last-child {
-  padding: 37px 0 48px 0;
+.committee-right-history {
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+  width: 26%;
 }
-.committee .about-logo {
+.committee .history-content p:not(:last-child) {
+  padding-bottom: 28px;
+}
+.committee .history-button {
+  margin-top: 8px;
+}
+/* .committee .about-logo {
   margin-top: 50px;
-}
-.committee .history-content p {
+} */
+/* .committee .history-content p {
   padding-right: 10px;
-}
+} */
 .committee .committee-content-wrap {
-  padding-left: 70px;
+  padding: 139px 0 159px 65px;
 }
-.committee .committee-content-wrap .about-logo.d-flex li:last-child {
-  padding-left: 40px;
+
+.committee .about-logo {
+  gap: 0 40px;
 }
 /* *************** <committee> Section End *************** */
 /******************Responsive-Start*******************/
 
-@media (min-width: 1366px) and (max-width: 1600px){
+@media (min-width: 1600px) and (max-width: 1700px){
 	
 }
 @media (min-width: 1200px) and (max-width: 1366px){
