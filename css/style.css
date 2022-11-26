@@ -823,10 +823,12 @@ width: 1440px;
 }
 .custom-inner-banner-content-wrap h4 {
   font-family: var(--ff-secondary);
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 700;
   color: var(--c-primary);
   margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 .custom-inner-banner-content-wrap  .breadcrumb-item {
   font-family: var(--ff-secondary);
