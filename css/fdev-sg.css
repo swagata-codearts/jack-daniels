@@ -1,6 +1,88 @@
 
 /* *************** Page Name Start *************** */
 /*Contact-Us-fdev-sg*/
+.conatct-content.custom-pad {
+    background-color: var(--c-secondary);
+}
+.address-box {
+    border: 1px solid var(--c-primary);
+    min-height: 220px;
+    padding: 50px 0;
+    position: relative;
+}
+.address-box::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: auto;
+    right: 0;
+    top: 0;
+    background-color: var(--c-primary);
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+.address-box:hover::before {
+    width: 100%;
+    right: auto;
+    left: 0;
+}
+.address-content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.address-content h3 {
+    font-size: 28px;
+    color: var(--c-primary);
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+.address-box:hover h3 {
+    color: var(--c-white-900);
+}
+.address-content h5 {
+    font-family: var(--ff-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--c-white-900);
+    margin-top: 20px;
+}
+.address-content h4 {
+    font-family: var(--ff-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--c-white-900);
+    margin-top: 10px;
+}
+.contact-form-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.inner-contact-form .form-control {
+    padding: 1rem .75rem;
+    font-size: 16px;
+    font-family: var(--ff-secondary);
+    color: var(--c-grey-700);
+}
+.inner-contact-form .form-label {
+    font-family: var(--ff-primary);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--c-grey-900);
+    text-transform: uppercase;
+}
+.inner-contact-form .form-select {
+    padding: 1rem .75rem;
+    font-size: 16px;
+    font-family: var(--ff-secondary);
+    color: var(--c-grey-700);
+    margin: 16px 0;
+}
+.inner-form-btn {
+    text-align: center;
+    margin-top: 30px;
+}
 
 /*Contact-Us-fdev-sg*/
 /* *************** Page Name End *************** */
