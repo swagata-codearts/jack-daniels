@@ -61,6 +61,7 @@ jQuery('.slider-nav')
     }]
   });
 
+
 jQuery('.slider-single').on('afterChange', function(event, slick, currentSlide) {
   jQuery('.slider-nav').slick('slickGoTo', currentSlide);
   var currrentNavSlideElem = '.slider-nav .slick-slide[data-slick-index="' + currentSlide + '"]';
