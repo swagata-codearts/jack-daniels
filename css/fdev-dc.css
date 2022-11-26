@@ -269,10 +269,16 @@
 /**************** Footer Section End *************** */
 /******************Responsive-Start*******************/
 
-@media (min-width: 1600px) and (max-width: 1700px){
+@media (min-width: 1500px) and (max-width: 1600px){
 	
 }
-@media (min-width: 1200px) and (max-width: 1366px){
+@media (min-width: 1400px) and (max-width: 1500px){
+	
+}
+@media (min-width: 1300px) and (max-width: 1400px){
+	
+}
+@media (min-width: 1200px) and (max-width: 1300px){
 	
 }
 
@@ -293,9 +299,5 @@
 }
 
 @media (max-width: 575.98px){
-    
-}
-
-@media (max-width: 480.98px){
     
 }
