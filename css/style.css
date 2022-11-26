@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 2px;
   background-color: var(--c-white-900);
-  top: -6px;
+  top: -4px;
   left: 0;
 }
 .nav-item-inner li a {
@@ -354,6 +354,10 @@ h1, h2, h3, h4, h5, h6 {
 /* *************** Header Section End *************** */
 
 /* *************** Banner Section Start *************** */
+.custom-banner {
+  position: relative;
+  margin-bottom: -1px;
+}
 .custom-banner .carousel-item img {
   --vp-v: 0.425;
   height: calc(100vw * var(--vp-v));
@@ -481,6 +485,7 @@ width: 1440px;
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+  position: relative;
 }
 /* *************** Products Section End *************** */
 
@@ -662,6 +667,9 @@ width: 1440px;
   font-family: var(--ff-primary);
   font-weight: 400;
   background-image: url(../images/down-filled-triangular-arrow.png);
+}
+.recipes .form-select:focus {
+  box-shadow: none;
 }
 .recipes .frm-dwn {
   display: flex;
