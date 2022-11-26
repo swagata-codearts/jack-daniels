@@ -63,27 +63,91 @@
     padding: 1rem .75rem;
     font-size: 16px;
     font-family: var(--ff-secondary);
-    color: var(--c-grey-700);
+    background-color: transparent;
 }
 .inner-contact-form .form-label {
     font-family: var(--ff-primary);
     font-size: 20px;
     font-weight: 600;
-    color: var(--c-grey-900);
+    color: var(--c-white-900);
     text-transform: uppercase;
 }
 .inner-contact-form .form-select {
     padding: 1rem .75rem;
     font-size: 16px;
     font-family: var(--ff-secondary);
-    color: var(--c-grey-700);
+    color: var(--c-grey-800);
     margin: 16px 0;
+    background-color: transparent;
 }
 .inner-form-btn {
     text-align: center;
     margin-top: 30px;
 }
-
+.form-section.custom-pad {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.form-section.custom-pad::after {
+    position: absolute;
+    content: '';
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.inner-contact-form {
+    position: relative;
+    z-index: 2;
+}
+.contact-form-heading h4 {
+    font-size: 40px;
+    color: var(--c-white-900);
+    font-weight: 600;
+}
+.contact-form-heading p {
+    padding: 0 200px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+.inner-contact-form  .form-control::placeholder {
+    color: var(--c-grey-800);
+}
+.map {
+    background-color: var(--c-secondary);
+}
+.contact-short-section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.contact-short-section::after {
+    position: absolute;
+    content: '';
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.short-section-content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.short-section-content h4 {
+    font-size: 40px;
+    color: var(--c-white-900);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
 /*Contact-Us-fdev-sg*/
 /* *************** Page Name End *************** */
 
