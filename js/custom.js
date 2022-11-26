@@ -25,8 +25,7 @@ jQuery('.slider-single').slick({
   infinite: false,
   useTransform: true,
   speed: 400,
-  // autoplay: true,
-  autoplaySpeed: 2000,
+  autoplay: true,
   cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
 });
 
@@ -40,6 +39,7 @@ jQuery('.slider-nav')
     dots: false,
     focusOnSelect: false,
     infinite: true,
+    autoplay: true,
     responsive: [{
       breakpoint: 1024,
       settings: {
