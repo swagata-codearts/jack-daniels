@@ -83,3 +83,11 @@ jQuery(document).ready(function(){
   
 });
 
+jQuery( document ).ready(function() {
+
+  jQuery( "img" ).load(function() {
+    if ( jQuery( this ).height() > 100) {
+      jQuery( this ).addClass( "bigImg" );
+    }
+  });
+})
