@@ -787,15 +787,15 @@ width: 1440px;
 
 /*Custom-inner-banner-start*/
 .custom-inner-banner {
-  background-color: var(--c-black-900);
+  background-color: var(--c-secondary);
 }
 .custom-inner-banner-content-wrap {
   text-align: center;
-  padding: 120px 0 50px;
+  padding: 120px 0;
 }
 .custom-inner-banner-content-wrap .breadcrumb {
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .inner-banner-img {
   background-position: center top;
@@ -821,6 +821,13 @@ width: 1440px;
   font-weight: 600;
   text-transform: uppercase;
 }
+.custom-inner-banner-content-wrap h4 {
+  font-family: var(--ff-secondary);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--c-primary);
+  margin-bottom: 5px;
+}
 .custom-inner-banner-content-wrap  .breadcrumb-item {
   font-family: var(--ff-secondary);
   font-size: 18px;
@@ -829,11 +836,12 @@ width: 1440px;
 }
 .custom-inner-banner-content-wrap .breadcrumb-item a {
   text-decoration: none;
-  color: var(--c-white-900);
+  color: var(--c-primary);
   font-size: 16px;
+  font-weight: 700;
 }
 .custom-inner-banner-content-wrap .breadcrumb-item a:hover {
-  color: var(--c-primary);
+  color: var(--c-white-900);
 }
 .custom-inner-banner-content-wrap .breadcrumb-item + .breadcrumb-item::before {
   color: var(--c-white-900);
