@@ -150,7 +150,41 @@
 }
 /*Contact-Us-fdev-sg*/
 /*privacy-policy-fdev-sg*/
-
+.privacy-content.custom-pad {
+    background-color: var(--c-black-800);
+}
+.privacy-text p {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 0;
+}
+.privacy-text .gap {
+    padding: 10px 0 0;
+}
+.privacy-text .list-heading {
+    font-size: 22px;
+    color: var(--c-white-900);
+    font-weight: 600;
+    padding: 15px 0 10px;
+}
+.privacy-text  .heading {
+    font-size: 22px;
+    color: var(--c-white-900);
+    font-weight: 600;
+    padding: 25px 0 5px;
+}
+.terms-list {
+    margin-top: 5px;
+}
+.terms-list li {
+    font-family: var(--ff-secondary);
+    font-size: 16px;
+    padding: 5px 0;
+    color: var(--c-white-900);
+    font-weight: 400;
+    list-style-type: disc;
+    margin-left: 15px;
+}
 /*privacy-policy-fdev-sg*/
 /* *************** Page Name End *************** */
 
