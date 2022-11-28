@@ -153,7 +153,7 @@
 .privacy-content.custom-pad {
     background-color: var(--c-black-800);
 }
-.privacy-text p {
+.demo.inner-para {
     font-size: 18px;
     line-height: 28px;
     padding: 10px 0;
@@ -161,24 +161,25 @@
 .privacy-text .gap {
     padding: 10px 0 0;
 }
-.privacy-text .list-heading {
-    font-size: 22px;
+.inner-list-heading {
+    font-size: 24px;
     color: var(--c-white-900);
     font-weight: 600;
     padding: 15px 0 10px;
 }
-.privacy-text  .heading {
-    font-size: 22px;
+.inner-heading {
+    font-size: 24px;
     color: var(--c-white-900);
     font-weight: 600;
     padding: 25px 0 5px;
+    text-transform: uppercase;
 }
 .terms-list {
     margin-top: 5px;
 }
 .terms-list li {
     font-family: var(--ff-secondary);
-    font-size: 16px;
+    font-size: 18px;
     padding: 5px 0;
     color: var(--c-white-900);
     font-weight: 400;
@@ -186,6 +187,9 @@
     margin-left: 15px;
 }
 /*privacy-policy-fdev-sg*/
+/*Terms&conditions-fdev-sg*/
+.terms-content.custom-pad {background-color: var(--c-black-800);}
+/*Terms&conditions-fdev-sg*/
 /* *************** Page Name End *************** */
 
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -212,7 +216,8 @@
     .short-section-content h4 {font-size: 36px;}
     /*Contact-Us-fdev-sg*/
     /*privacy-policy-fdev-sg*/
-    .privacy-text p {font-size: 16px;}
+    .demo.inner-para {font-size: 16px;}
+    .terms-list li {font-size: 16px;}
     /*privacy-policy-fdev-sg*/
 }
 
@@ -229,7 +234,8 @@
     .inner-contact-form .form-select {font-size: 14px;}
     /*Contact-Us-fdev-sg*/
     /*privacy-policy-fdev-sg*/
-    .privacy-text p {font-size: 16px;}
+    .demo.inner-para {font-size: 16px;}
+    .terms-list li {font-size: 16px;}
     /*privacy-policy-fdev-sg*/
 }
 
@@ -246,7 +252,8 @@
     .inner-contact-form .form-select {font-size: 14px;}
     /*Contact-Us-fdev-sg*/
     /*privacy-policy-fdev-sg*/
-    .privacy-text p {font-size: 16px;}
+    .demo.inner-para {font-size: 16px;}
+    .terms-list li {font-size: 16px;}
     /*privacy-policy-fdev-sg*/
 }
 
@@ -265,7 +272,10 @@
     .contact-form-heading {margin-bottom: 30px;}
     /*Contact-Us-fdev-sg*/
     /*privacy-policy-fdev-sg*/
-    .privacy-text p {font-size: 16px;}
+    .demo.inner-para {font-size: 16px;}
+    .inner-heading {font-size: 22px;}
+    .terms-list li {font-size: 16px;}
+    .inner-list-heading {font-size: 22px;}
     /*privacy-policy-fdev-sg*/
 }
 
@@ -279,9 +289,10 @@
     /*Contact-Us-fdev-sg*/
     /*privacy-policy-fdev-sg*/
     .terms-list {margin-top: 0px;}
-    .privacy-text p {padding: 0px 0;}
-    .privacy-text .list-heading {padding: 15px 0 4px;}
-    .terms-list li {padding: 4px 0;}
+    .demo.inner-para {padding: 0px 0;}
+    .inner-list-heading {padding: 15px 0 4px;}
+    .terms-list li {padding: 4px 0;font-size: 16px;}
+    .inner-heading {font-size: 22px;}
     /*privacy-policy-fdev-sg*/
 }
 
@@ -295,9 +306,9 @@
     .address-content h3 {font-size: 24px;}
     /*Contact-Us-fdev-sg*/
     /*privacy-policy-fdev-sg*/
-    .privacy-text p {font-size: 14px;}
+    .demo.inner-para {font-size: 14px;}
     .terms-list li {font-size: 14px;}
-    .privacy-text .list-heading {font-size: 20px;}
-    .privacy-text .heading {padding: 15px 0 5px;}
+    .inner-list-heading {font-size: 20px;}
+    .inner-heading {padding: 15px 0 5px;}
     /*privacy-policy-fdev-sg*/
 }
