@@ -192,6 +192,8 @@
 .recipes .form-select {font-size: 18px;}
 
 .custom-footer .footer-col-content p {padding-right: 75px;}
+
+.thank-you-content {width: 70%;}
 /* fdev-dc */
 }
 
@@ -265,6 +267,8 @@
 .timeline-wrap .timeline-card:nth-child(2n+1) .timeline-card_content {margin-left: 2%;}
 .timeline-wrap .timeline-card:nth-child(2n+1) .timeline-date {right: 15%;}
 .timeline-wrap .timeline-card:nth-child(2n) .timeline-date {left: 15%;}
+
+.thank-you-content {width: 70%;}
 /* fdev-sb */
 /* fdev-dc */
 .committee-right-history {width: 32%;}
@@ -363,6 +367,8 @@
 .timeline-wrap .timeline-card:nth-child(2n+1) .timeline-card_content {margin-left: 2%;}
 .timeline-wrap .timeline-card:nth-child(2n+1) .timeline-date {right: 15%;}
 .timeline-wrap .timeline-card:nth-child(2n) .timeline-date {left: 15%;}
+
+.thank-you-content {width: 80%;}
 /* fdev-sb */
 /* fdev-dc */
 .committee-right-history {width: 32%;}
@@ -477,6 +483,14 @@
 .timeline-wrap .timeline-card:nth-child(2n+1) .timeline-card_content {margin-left: 2%;}
 .timeline-wrap .timeline-card:nth-child(2n+1) .timeline-date {right: 15%;}
 .timeline-wrap .timeline-card:nth-child(2n) .timeline-date {left: 15%;}
+
+.thank-you-content {width: 80%;padding: 25px 50px 45px;}
+.thank-you-content img {height: 120px;}
+.thank-you-content h2 {font-size: 56px;line-height: 50px;margin-top: 10px;}
+.thank-you-content p {font-size: 15px;line-height: 22px;margin-top: 15px;}
+.thank-you-content .socials {margin-top: 12px;}
+.thank-you-content .socials h4 {font-size: 20px;}
+.thank-you-content .socials ul {margin-top: 12px;}
 /* fdev-sb */
 /* fdev-dc */
 .committee-right-history {width: 32%;}
@@ -587,6 +601,8 @@
 .timeline-text h5 {line-height: 24px;}
 .timeline-wrap .timeline-card .timeline-card_content .timeline-text {padding: 20px 20px;gap: 3px 0;min-height: unset;}
 .timeline-wrap .timeline-card .timeline-date h5 {font-size: 35px;letter-spacing: 2px;}
+
+.thank-you-content {padding: 25px 25px 45px;width: 90%;}
 /* fdev-sb */
 /* fdev-dc */
 .committee-right-history:nth-child(2) {width: 59%;}
@@ -659,6 +675,15 @@
 .timeline-wrap .timeline-card .timeline-card_content:hover {transform: unset;}
 .timeline-wrap .timeline-card .timeline-date h5 {font-size: 30px;letter-spacing: 1px;}
 .timeline-wrap {padding: 40px 0 25px;}
+
+.thank-you-content {padding: 15px 20px 35px;}
+.thank-you-content img {height: 80px;}
+.thank-you-content h2 {font-size: 42px;line-height: 32px;margin-top: 5px;}
+.thank-you-content p {font-size: 14px;margin-top: 10px;}
+.thank-you-content .socials {margin-top: 8px;}
+.thank-you-content .socials h4 {font-size: 18px;}
+.thank-you-content .socials ul {margin-top: 10px;}
+.thank-you-content .socials ul .social-link a {height: 25px;width: 25px;font-size: 13px;}
 /* fdev-sb */
 /* fdev-dc */
 .committee {padding-bottom: 50px;}
